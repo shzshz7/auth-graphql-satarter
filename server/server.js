@@ -13,7 +13,7 @@ const app = express();
 console.log("hello");
 
 // Replace with your mongoLab URI
-const MONGO_URI = '';
+const MONGO_URI = 'mongodb://<shzshz7>:<12041204>@ds119930.mlab.com:19930/auth';
 
 // Mongoose's built in promise library is deprecated, replace it with ES2015 Promise
 mongoose.Promise = global.Promise;
